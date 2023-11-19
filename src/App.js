@@ -5,7 +5,7 @@ import Home from "./components/Home";
 
 function App() {
   const { user, loading, error } = useUserContext();
-
+ 
   return (
     <div className="App">
       {error && <p className="error">{error}</p>}
